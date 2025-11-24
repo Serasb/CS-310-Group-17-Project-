@@ -66,6 +66,7 @@ class _AddHabitScreenState extends State<AddHabitScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFE8E8F5),
       appBar: AppBar(title: const Text('Add Habit')),
       body: Form(
         key: _formKey,
@@ -114,11 +115,19 @@ class _AddHabitScreenState extends State<AddHabitScreen> {
               onTap: _pickTime,
             ),
             const SizedBox(height: 20),
-            FilledButton(onPressed: _save, child: const Text('Save')),
+            FilledButton(
+              style: FilledButton.styleFrom(
+                backgroundColor: Color(0xFF9C27B0),
+                foregroundColor: Colors.white,
+                padding: const EdgeInsets.symmetric(vertical: 14),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+              ),
+              onPressed: _save,
+              child: const Text('Save'),
+            )
           ],
         ),
       ),
     );
   }
 }
-
