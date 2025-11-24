@@ -35,7 +35,7 @@ class LoginScreen extends StatelessWidget {
             const SizedBox(height: 20),
             FilledButton(
               style: FilledButton.styleFrom(
-                backgroundColor: Color(0xFF9C27B0),   
+                backgroundColor: Color(0xFF9C27B0),
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(vertical: 14),
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
