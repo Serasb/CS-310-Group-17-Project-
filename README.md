@@ -2,7 +2,7 @@
 Perpetua
 ---------------------------------------------------------------------------------------------
 
-32208 Talha Aymergen 
+32208 Talha Aymergen \n
 32515 İsmail Memiş
 32251 Sera Sinem Baygan 
 22629 Zeynep Duru Arca 
