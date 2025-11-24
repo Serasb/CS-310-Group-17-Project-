@@ -1,4 +1,12 @@
 # CS-310-Group-17-Project
-#Perpetua
+Perpetua
+---------------------------------------------------------------------------------------------
+
+32208 Talha Aymergen 
+32515 İsmail Memiş
+32251 Sera Sinem Baygan 
+22629 Zeynep Duru Arca 
+31986 Selin Lara Adalı 
+31945 Aysu Yazdıçutan 
 
 
