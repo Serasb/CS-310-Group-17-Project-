@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
 import 'screens/add_habit_screen.dart';
+import 'screens/register_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => const LoginScreen(),
         '/home' : (context) => const HomeScreen(),
         '/add'  : (context) => const AddHabitScreen(),
+        '/register' : (context) => const RegistrationScreen(),
       },
     );
   }

@@ -7,12 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-<<<<<<< HEAD
-import 'package:perpatua_page_1/main.dart';
-=======
 import 'package:perpetua/main.dart';
->>>>>>> origin/main
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
